@@ -1,5 +1,4 @@
 .header {
-    border: 1px solid red;
     display: flex;
     align-self: center;
     flex-direction: row;
