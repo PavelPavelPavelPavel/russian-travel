@@ -1,8 +1,6 @@
 .lead {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
+    display: flexbox;
+    margin: 0;
     padding: 0;
     border: 1px solid blue;
 }

@@ -1,4 +1,7 @@
 .lead__wrapper {
+    margin: 56px 0 0 0;
+    border: 1px solid green;
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
