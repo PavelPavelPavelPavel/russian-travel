@@ -1,6 +1,8 @@
 .content {
     margin: 48px auto 0 auto;
     display: flex;
-    flex-direction: column;
     border: 1px solid green;
+    padding-left: 148px;
+    padding-right: 148px;
+    flex-direction: column;
 }

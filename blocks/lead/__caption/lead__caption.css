@@ -1,12 +1,11 @@
 .lead__caption {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0;
+    margin: 8px 0 0 0;
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
     font-size: 10px;
     color: #ffffff;
-    border: 1px solid red; 
+    border: 1px solid yellow;
+    
 }
