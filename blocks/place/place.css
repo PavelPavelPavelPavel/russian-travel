@@ -1,0 +1,13 @@
+.place {
+   margin: 0;
+   padding: 0;
+   min-width: 984px;
+   display: grid;
+   grid-template-areas:
+    "A B "
+    "D C "
+    "D C ";   
+    column-gap: 0;
+    row-gap: 48px;
+    column-gap: 40px;
+}

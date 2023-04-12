@@ -1,3 +1,10 @@
 .place__paragraph {
-    
+    font-style: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    min-width: 484px;
 }
