@@ -1,11 +1,30 @@
 .header {
     display: flex;
     flex-direction: row;
-    margin: 28px auto 0 auto;
+    margin: 28px 48px 0 48px;
     justify-content: space-between;
-    padding-left: 48px;
-    padding-right: 48px;
     min-width: 1184px;
+    border: 1px solid red;
 }
 
-    
+@media  screen and (max-width: 1024px) {
+    .header {
+        min-width: 928px;
+        margin: 28px 48px 0 48px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .header {
+        min-width: 720px;
+        margin: 28px 24px 0 24px;
+    }
+}
+
+@media  screen and (max-width: 320px){
+    .header {
+        min-width: 288px;
+        margin: 16px 16px 0 16px;
+    }
+}
+

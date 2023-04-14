@@ -1,6 +1,6 @@
 logo {
-    width: 176px;
-    height: 52px;
-    color: #ffffff;
+    max-width: 176px;
+    max-height: 52px;
+    color: #fff;
     margin: 0;
 }

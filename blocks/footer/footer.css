@@ -1,8 +1,14 @@
 .footer {
     margin: 92px auto 24px auto;
     min-width: 1184px;
-    max-height: 18px;
+    min-height: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+   min-width: 928px;
+    }
 }

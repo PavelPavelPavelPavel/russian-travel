@@ -2,6 +2,6 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    grid-area: B;
+    grid-area: Place-url;
     justify-content: end;
 }

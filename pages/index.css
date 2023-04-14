@@ -29,7 +29,7 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website/__link/website__link.css);
 @import url(../blocks/place/__website/__url-heading/website__url-heading.css);
-@import url(../blocks/place/__paragraph/__paragraph-wrapper/place__paragraph-wrapper.css);
+@import url(../blocks/place/__paragraph-wrapper/place__paragraph-wrapper.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);

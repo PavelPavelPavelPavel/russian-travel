@@ -1,9 +1,15 @@
 .content {
-    max-width: 984px;
-    margin: 48px auto 0 auto;
+    margin:  0;
     display: flex;
-    padding-left: 148px;
-    padding-right: 148px;
     flex-direction: column;
     align-items: center;
+    width: auto;
 }
+
+@media  screen and (max-width: 1024px) {
+    .content {
+        max-width: 1024px;
+    }
+    
+}
+    
