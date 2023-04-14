@@ -7,5 +7,6 @@
 }
 
 .website__link:hover {
-    opacity: 0.8;
+    color: #176BFF;
+    transition: color 0.3s linear;
 }

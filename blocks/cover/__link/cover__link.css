@@ -8,4 +8,18 @@
     text-decoration: none;
 }
 
+.cover__link::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.3;
+}
 
+.cover__link:hover.cover__link::before {
+    opacity: 0.7;
+    transition: opacity 0.5s linear;
+}
