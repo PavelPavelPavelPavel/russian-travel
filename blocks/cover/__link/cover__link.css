@@ -28,7 +28,7 @@
 @media screen and (max-width: 768px) {
     .cover__link {
         min-width: 768px;
-        min-height: 480px ;
+        min-height: 480px;
         background-size: cover;
         background-position: center;
     }
@@ -37,7 +37,7 @@
 @media screen and (max-width: 320px) {
     .cover__link {
         min-width: 320px;
-        min-height: 200px ;
+        min-height: 200px;
         
     }
 }
