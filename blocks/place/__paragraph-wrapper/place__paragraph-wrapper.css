@@ -5,5 +5,5 @@
     margin: 0;
     padding: 0;
     grid-area: Place-paragraph;
-    min-width: 484px;
+    max-width: 484px;
 }

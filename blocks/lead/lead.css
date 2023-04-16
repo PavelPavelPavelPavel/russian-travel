@@ -16,15 +16,15 @@
 
 @media screen and (max-width: 768px) {
     .lead {
-        max-width: 720px;
-        margin: 0;
+        max-width: 768px;
+        margin: 48px 0 0 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead {
-        min-width: 100%;
-        min-height: 406px;
-        margin: 0 148px 0 148px;
+        max-width: 320px;
+        max-height: 406px;
+        margin: 48px 2px 0 2px;
     }
 }

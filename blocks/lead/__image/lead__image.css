@@ -20,15 +20,16 @@
 @media screen and (max-width: 768px) {
     .lead__image {
         margin: 56px 0 0 0;
-        min-width: 100%;
+        min-width: 768px;
         min-height: 480px;
-        
+        object-fit: cover;
+        object-position: center;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
-        margin: 40px -2px 0 -2px;
+        margin: 40px auto 0 auto;
         min-width: 100%;
         min-height: 200px;
         

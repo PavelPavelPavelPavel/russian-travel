@@ -4,8 +4,7 @@
     margin: 28px 48px 0 48px;
     justify-content: space-between;
     min-width: 1184px;
-    border: 1px solid red;
-}
+    }
 
 @media  screen and (max-width: 1024px) {
     .header {

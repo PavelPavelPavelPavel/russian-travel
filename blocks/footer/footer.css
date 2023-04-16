@@ -9,6 +9,22 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-   min-width: 928px;
+   max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+   min-width: 720px;
+    margin: 88px auto 24px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+   min-width: 186px;
+    margin: 64px auto 24px 16px;
+    flex-direction: column;
+    gap: 48px;
     }
 }

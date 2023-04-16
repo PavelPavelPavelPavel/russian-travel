@@ -11,3 +11,11 @@
     color: #fff;
     text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        margin: 16px auto 0 auto;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

@@ -12,4 +12,19 @@
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .cover__title {
+        margin: 115px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        margin: 33px auto 0 auto;
+        font-size: 32px;
+        line-height: 35px;
+
+    }
+}
 

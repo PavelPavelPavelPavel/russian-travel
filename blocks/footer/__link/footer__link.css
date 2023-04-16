@@ -10,3 +10,11 @@
     color: #176BFF;
     transition: color 0.3s linear;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    }
+    
+}

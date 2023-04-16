@@ -3,13 +3,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: auto;
+    min-width: 1280px;
 }
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .content {
-        max-width: 1024px;
-    }
-    
-}
+     max-width: 1024px;
+      } }
+
+@media screen and (max-width: 768px) {
+        .content {
+        min-width: 768px;
+    } }
+
+    @media screen and (max-width: 320px) {
+        .content {
+        min-width: 320px;
+    } }
     
