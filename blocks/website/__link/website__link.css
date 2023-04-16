@@ -1,6 +1,5 @@
 .website__link {
-    color: #ffffff;
-    font-family: Inter;
+    color: #fff;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -9,4 +8,5 @@
 .website__link:hover {
     color: #176BFF;
     transition: color 0.3s linear;
+    cursor: url(../../../vendor/pointer/pointer.png), auto;
 }

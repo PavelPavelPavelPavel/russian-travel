@@ -9,10 +9,11 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        max-width: 928px;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-       gap: 14px;
-       justify-items: stretch;
+        margin: 92px 48px 0 48px;
+        min-width: 928px;
+        grid-template-columns: repeat(3, 300px);
+        gap: 14px;
+        justify-items: stretch;
     }
 }
 

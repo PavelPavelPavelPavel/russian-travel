@@ -1,5 +1,5 @@
 .footer {
-    margin: 92px auto 24px auto;
+    margin: 92px 48px 24px 48px;
     min-width: 1184px;
     min-height: 18px;
     display: flex;
@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-   max-width: 928px;
+   min-width: 928px;
+   margin: 92px auto 24px auto;
     }
 }
 

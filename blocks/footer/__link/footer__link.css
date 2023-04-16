@@ -1,6 +1,5 @@
 .footer__link {
     color: #fff;
-    font-family: Inter;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
@@ -9,6 +8,7 @@
 .footer__link:hover {
     color: #176BFF;
     transition: color 0.3s linear;
+    cursor: url(../../../vendor/pointer/pointer.png), auto;
 }
 
 @media screen and (max-width: 320px) {
