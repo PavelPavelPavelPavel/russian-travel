@@ -30,8 +30,8 @@
          grid-template-areas:
          "Place-title"
          "Place-url"
-         "Place-img "
-        "Place-paragraph ";
+         "Place-img"
+        "Place-paragraph";
         row-gap: 32px;
     }
 }
