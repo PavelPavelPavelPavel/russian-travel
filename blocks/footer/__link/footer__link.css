@@ -7,7 +7,8 @@
 }
 .footer__link:hover {
     color: #176BFF;
-    transition: color 0.3s linear;
+    opacity: .8;
+    transition: all 0.3s linear;
     cursor: url(../../../vendor/pointer/pointer.png), auto;
 }
 
