@@ -3,13 +3,13 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    width: calc(100% - 296px)
+    width: calc(100% - 296px);
 }
 
 @media screen and (max-width: 1024px) {
     .places {
         margin: 92px auto 0 auto;
-        width: calc(100% - 96px)
+        width: calc(100% - 96px);
 
     }
 }
