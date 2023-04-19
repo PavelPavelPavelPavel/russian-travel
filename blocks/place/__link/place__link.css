@@ -1,13 +1,13 @@
-.website__link {
+.place__link {
     color: #fff;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
 }
 
-.website__link:hover {
+.place__link:hover {
     color: #176BFF;
-    opacity: .8;
+    opacity: 0.8;
     transition: all 0.3s linear;
     cursor: url(../../../vendor/pointer/pointer.png), auto;
 }
