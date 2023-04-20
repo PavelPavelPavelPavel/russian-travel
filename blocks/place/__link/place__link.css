@@ -11,3 +11,9 @@
     transition: all 0.3s linear;
     cursor: url(../../../vendor/pointer/pointer.png), auto;
 }
+
+@media screen and (max-width: 637px ) {
+    .place__link {
+        margin: 0 auto 0 16px;
+    }
+}

@@ -1,24 +1,5 @@
 .content {
-    position: relative;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
-
-
-@media screen and (max-width: 1024px) {
-        .content {
-         max-width: 1024px;
-          } }
-    
-      
-@media screen and (max-width: 768px) {
-        .content {
-        max-width: 768px;
-    } }
-
-    @media screen and (max-width: 320px) {
-        .content {
-        max-width: 320px;
-    } }
-    

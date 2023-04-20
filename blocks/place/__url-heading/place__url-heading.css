@@ -6,3 +6,8 @@
     letter-spacing: 2px;
 }
 
+@media screen and (max-width: 637px ) {
+    .place__url-heading {
+        margin: 0 auto 0 16px;
+    }
+}

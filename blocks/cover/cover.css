@@ -1,6 +1,7 @@
 .cover {
     display: flex;
     justify-content: center;
+    overflow: hidden;
     align-items: center;
     margin: 92px auto 0 auto;
     padding: 0;
@@ -22,6 +23,8 @@
          margin: 90px 0 0 0;
           } 
      }
+
+
 
      @media screen and (max-width: 320px) {
         .cover {

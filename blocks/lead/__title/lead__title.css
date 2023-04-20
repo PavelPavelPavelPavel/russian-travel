@@ -1,5 +1,4 @@
 .lead__title {
-    position: relative;
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-style:  normal;
     font-weight: 900;
@@ -10,14 +9,13 @@
     text-align: center;
     margin: 0 auto 0 auto;
     padding: 0;
-    box-sizing: border-box;
     align-self: center;
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
 }
 
 
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 728px) {
     .lead__title {
         font-size: 60px;
         line-height: 64px;
@@ -26,11 +24,18 @@
 
 @media screen and (max-width: 576px) {
     .lead__title {
-        width: calc(100% - 10px);
-        font-size: 40px;
-        line-height: 44px;
+        font-size: 35px;
+        line-height: 39px;
     }
 }
+
+@media screen and (max-width: 523px) {
+    .lead__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .lead__title {

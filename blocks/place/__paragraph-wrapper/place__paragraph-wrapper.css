@@ -6,3 +6,9 @@
     padding: 0;
     grid-area: Place-paragraph;
 }
+
+@media screen and (max-width: 637px ) {
+    .place__paragraph-wrapper {
+        margin: 0 auto 0 16px;
+    }
+}
