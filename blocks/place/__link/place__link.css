@@ -6,7 +6,6 @@
 }
 
 .place__link:hover {
-    color: #176BFF;
     opacity: 0.8;
     transition: all 0.3s linear;
     cursor: url(../../../vendor/pointer/pointer.png), auto;

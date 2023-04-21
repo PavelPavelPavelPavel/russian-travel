@@ -4,11 +4,11 @@ position: relative;
    padding: 0;
    display: grid;
    grid-template-areas:
-    "Place-title  Place-url "
-    "Place-img  Place-paragraph ";
+    "Place-title Place-url "
+    "Place-img Place-paragraph ";
     row-gap: 48px;
     column-gap: 40px;
-    min-width: 100%;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 1024px) {

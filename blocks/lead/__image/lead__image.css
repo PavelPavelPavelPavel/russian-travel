@@ -1,24 +1,17 @@
 .lead__image {
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
-    overflow: hidden;
     background-repeat: no-repeat;
     margin: 64px 0 0 0;
     padding: 0;
     width: 100%;
-    min-height: 615px;
+    max-height: 615px;
 }
 
 @media screen (max-width: 1024px) {
     .lead__image {
         margin: 56px 0 0 0;
-        min-height: 580px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead__image {
-        min-height: 480px;
+        max-height: 580px;
     }
 }
 

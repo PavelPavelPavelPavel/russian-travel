@@ -9,19 +9,17 @@
     grid-area: Place-title;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px ) {
     .place__title {
-        font-size: 42px;
-        line-height: 46px;
-        max-width: 340px;
+        max-width: 440px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .place__title {
         margin: 0 0 0 16px;
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
+        max-width: 200px;
     }
 }
